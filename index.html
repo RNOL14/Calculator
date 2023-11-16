@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="first-div">
+        <div class="second-div">
+            <p class="display">0</p>
+
+            <p>
+                <button onclick="
+                    updateCalculation('1');
+                    " class="number-button"
+                
+                >1</button>
+                <button onclick="
+                updateCalculation('2');
+                " class="number-button"
+                
+                >2</button>
+                <button onclick="
+                updateCalculation('3');
+                " class="number-button"
+                >3</button>
+                <button onclick="
+                updateCalculation('+');
+                " class="op-button"
+                >+</button>
+            </p>
+    
+            <p>
+                <button onclick="
+                updateCalculation('4');
+                " class="number-button"
+                >4</button>
+                <button onclick="
+                updateCalculation('5');
+                " class="number-button"
+                >5</button>
+                <button onclick="
+                updateCalculation('6');
+                " class="number-button"
+                >6</button>
+                <button onclick="
+                updateCalculation('-');
+                " class="op-button"
+                >-</button>
+            </p>
+    
+            <p>
+                <button onclick="
+                updateCalculation('7');
+                " class="number-button"
+                >7</button>
+                <button onclick="
+                updateCalculation('8');
+                " class="number-button"
+                >8</button>
+                <button onclick="
+                updateCalculation('9');
+                " class="number-button"
+                >9</button>
+                <button onclick="
+                updateCalculation('*');
+                " class="op-button"
+                >*</button>
+            </p>
+    
+            <p>
+                <button onclick="
+                updateCalculation('0');
+                " class="number-button"
+                >0</button>
+                <button onclick="
+                updateCalculation('.');
+                " class="number-button"
+                >.</button>
+                <button onclick="
+                theValue();
+                " class="number-button"
+                >=</button>
+                <button onclick="
+                updateCalculation('/');
+                " class="op-button"
+                >/</button>
+            </p>
+    
+            <p>
+                <button onclick="
+                    removeValues();
+                    " class="number-button clear-button"
+                >Clear</button>
+            </p>
+        </div>
+
+
+
+
+
+    </div>
+    
+
+    <script src="java.js"></script>
+</body>
+</html>
